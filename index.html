@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-       <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="flex justify-between items-center mt-[30px] px-6 lg:px-[150px]">
+
             
+            <div>
+                <img class="w-[63px] lg:w-[135px]" src="assets/logo.png" alt="Logo">
+
+            </div>
+
+            
+            <div class="hidden lg:flex items-center gap-[48px]">
+                <a href="#" class="font-bold">Home</a>
+                <a href="#" class="text-[#8987A1]">Shop</a>
+                <a href="#" class="text-[#8987A1]">About Us</a>
+                <a href="#" class="flex items-center gap-1">
+                    <i class="fa-solid fa-cart-shopping text-black"></i>
+                    <span class="text-sm font-medium text-black">Cart</span>
+                    <span class="text-sm">($56)</span>
+                </a>
+            </div>
+
+            
+            <div class="lg:hidden">
+                <a href="#" class="flex items-center gap-1">
+                    <i class="fa-solid fa-cart-shopping text-black"></i>
+                    <span class="text-sm font-medium text-black">Cart</span>
+                    <span class="text-sm text-[#e74c3c]">($56)</span>
+                </a>
+            </div>
+
         </nav>
     </header>
+
 
     <main>
 
@@ -22,4 +55,5 @@
 
     </footer>
 </body>
+
 </html>
