@@ -184,7 +184,6 @@
             <div>
                 <img class="w-full  md:max-w-[540px] lg:w-fit object-cover" src="assets/flower-store.png"
                     alt="Flower store" />
-
             </div>
 
             <div>
@@ -217,13 +216,14 @@
             </div>
 
             <!-- images  -->
-            <div class="flex flex-col lg:flex-row justify-center gap-6">
+            <div class="flex flex-col lg:flex-row justify-center  gap-6">
 
                 <div class="flex flex-col items-center gap-4">
                     <div
                         class="bg-[url('./assets/deal-ana.png')]
- bg-cover bg-center w-full max-w-[440px] h-[201px] rounded-2xl flex flex-col justify-center items-center gap-1.5 px-4 text-center">
-                        <h2 class="text-white font-noto text-[18px] sm:text-[20px] font-bold">
+ bg-cover bg-center w-full max-w-[440px] h-[201px] rounded-2xl flex flex-col justify-center items-center gap-1.5 px-4 text-center relative z-20  ">
+                    <div class="absolute bg-black opacity-50 z-30"></div>
+                        <h2 class="text-white font-noto text-[18px] sm:text-[20px] font-bold ">
                             25% Off | Ana Plant
                         </h2>
                         <button
@@ -233,15 +233,19 @@
                     </div>
 
                     <div
-                        class="bg-[url('./assets/deal-bloom.png')] bg-cover bg-center w-full max-w-[440px] h-[201px] rounded-2xl flex flex-col justify-center items-center gap-1.5 px-4 text-center">
+                        class="bg-[url('./assets/deal-bloom.png')] bg-cover bg-center w-full max-w-[440px] lg:max-w-[600px] h-[201px] rounded-2xl flex flex-col justify-center items-center gap-1 px-4 text-center mx-auto lg:mx-0">
+
                         <h2 class="text-white font-noto text-[18px] sm:text-[20px] font-bold">
                             25% Off | Bloom Plant
                         </h2>
+
                         <button
-                            class="font-semibold text-[16px] sm:text-[18px] text-white px-10 sm:px-16 py-3 underline">
+                            class="font-semibold text-[16px] sm:text-[18px] text-white px-10 sm:px-16 py-2 underline">
                             Shop Now
                         </button>
                     </div>
+
+
                 </div>
 
 
@@ -264,8 +268,7 @@
 
         <!-- newsletter section  -->
         <div class="w-full bg-cover bg-center bg-no-repeat mt-28"
-            style="background-image: url('./assets/news-letter-bg.png')">
-
+            style="background-image: url('assets/news-letter-bg.png')">
 
             <div
                 class="max-w-screen-xl mx-auto px-4 py-20 h-[533px] flex flex-col items-center justify-center text-center">
